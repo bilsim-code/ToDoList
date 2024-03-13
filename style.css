@@ -1,0 +1,262 @@
+/* ul {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column; 
+}
+
+li {
+   list-style-type:none;
+   padding: 0.5em 0.5em 0.5em 2em;
+   margin: 2px;
+   background: lightgray;
+   position: relative;
+   font-family: sans-serif;
+   cursor: pointer;
+   width: 500px;
+}
+
+li.done {
+   background: #4fe7e7;
+}
+
+li.done::before {
+   content: "";
+   position: absolute;
+   border-width: 0  0.3rem 0.25rem 0;
+   border-color: rgb(28, 100, 28);
+   border-style: solid;
+   top: 1.3rem;
+   left: .6rem;
+   height: 1rem;
+   transform: rotate(45deg);
+   width: .5rem;
+   margin-top: -1rem;
+}  */
+
+
+
+/*  ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+}
+
+li {
+   list-style-type: none;
+   margin: 2px;
+   width: 500px; 
+   padding: 0.5em 0.5em 0.5em 2em;
+   background:lightgray;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   
+} 
+
+li.done::before {
+content: "";
+position: absolute;
+top: 1.3rem;
+left: .6rem;
+border-color: green;
+border-width:0 0.3rem 0.25rem 0;
+border-style: solid;
+height: 1rem;
+width: .5rem;
+transform: rotate(45deg);
+margin-top: -1rem;
+}
+
+li.done {
+   background: greenyellow
+}
+
+img {
+   width: 30px;
+   height: 20px;
+   object-fit: cover;
+   cursor: pointer;
+ 
+} */
+
+/*  
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.input {
+   display: flex;
+   justify-content: right;
+   align-items: flex-end;
+   flex-direction: column;
+   margin: 1rem 1rem 0 0;
+   margin-bottom: 4rem;
+}
+
+input {
+   width: 400px;
+   padding: 8px;
+   outline: none;
+
+}
+
+#submit {
+   padding: 8px;
+   margin-top: 0;
+   cursor: pointer;
+   background: #001;
+   border: none;
+   border-radius: 6px;
+   color: #fff;
+}
+
+ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 95%;
+}
+
+li {
+   list-style-type: none;
+   margin: 2px;
+   padding: 0.5em 0.5em 0.5em 2em;
+   top: 1.3rem;
+   left: .6rem;
+   width: 500px;
+   background: lightgray;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   cursor:default;
+}
+
+img {
+   width: 30px;
+   height: 30px;
+   object-fit: contain;
+   position: absolute;
+   right: 0.6;
+   bottom: .3;
+   cursor: pointer;
+}
+
+li.done::before{
+   content: "";
+   position: absolute;
+   top: 1.3rem;
+   left: 0.8rem;
+   border-color: green;
+   border-width: 0 0.3rem 0.25rem 0;
+   border-style: solid;
+   height: 1rem;
+   width: 0.5rem;
+   transform: rotate(45deg);
+   margin-top: -1rem;
+}
+
+li.done {
+   background: greenyellow;
+} */
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+   width: 100%;
+}
+
+.input {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 1rem;
+   flex-wrap: wrap;
+   gap: 6px
+}
+
+input {
+   padding: 8px;
+   border-radius: 4px;
+   border: 1px solid lightgray;
+}
+
+input:hover {
+   box-shadow: 5px 5px 10px lightgray;
+}
+
+ #submit {
+   width: 60px;
+   background: #ccc;
+   border-radius: 8px;
+   border: 1px solid gray;
+   cursor: pointer;
+}
+
+#submit:hover {
+   box-shadow: 5px 5px 15px #ccc;
+   background: rgba(128, 128, 128, 0.667);
+}
+
+ul {
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   margin:2rem auto;
+   flex-direction: column;
+   margin: 2rem;
+}
+
+li {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 4px;
+   border-radius: 8px;
+   border: 1px solid lightgray;
+   margin-bottom: 6px;
+   width: 100%;
+   background: gray;
+   cursor: default;
+   position: relative;
+   padding: 0.5em 0.5em 0.5em 2em; 
+}
+
+li.done::before {
+   content: "";
+   position: absolute;
+   top: 1.3rem;
+   left: .8rem;
+   border-color: green;
+   border-width: 0 0.25rem 0.3rem 0;
+   border-style: solid;
+   height:1rem;
+   width: 0.55rem;
+   transform: rotate(45deg);
+   margin-top: -1rem;
+}
+
+li.done {
+   background: #0f0;
+}
+
+img {
+   width: 30px;
+   height: 20px;
+   object-fit: cover;
+   cursor: pointer
+}
+
+
+
